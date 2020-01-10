@@ -4,6 +4,8 @@
 
 #### At this point the application uses the mySQL database (bamazonCustomer) that was created prior running the code.
 
+![](/images/database.png)
+
 1. Once we run the app with **node**, we **as customers** are given a list with item IDs, item descriptions, and item prices. This is our **bamazon store**. 
 
 1. After the **store** is displayed, the customer is prompted to make a choice and *select an id of the desired item*. 
