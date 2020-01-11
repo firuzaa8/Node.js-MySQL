@@ -40,4 +40,48 @@ In addition, the customer is given the total price that he is going to be charge
 
 ![](/images/challange1.gif)
 
+## Challange 2. Manager View.
 
+#### We are still using bamazon_db database, but this time we are accessing it via the app that represents the managers side of the store.
+
+1. Once we run the app, we get prompted to make the following selection (inquirer.prompt). These are the **options that are provided to the manager**
+
+![](/images/initialselection.png)
+ 
+![](/images/firstfunction.png)
+
+
+1. If the manager chooses **View Products for Sale**, he is given the list of the current inventory from the database. And right away, after the list displays, he is asked to continue.
+
+![](/images/view.png)
+
+![](/images/viewcode.png)
+
+
+1. When the manager chooses **View Low Inventory**, he is given a list of all the items that are low in stock (less than 5 eaches)
+
+
+![](/images/low.png)
+
+1. If the manager picks **Add to Inventory**, he is given the list of all items again, and prompted to make a selection by ID. Then, the manager is asked to enter the quantity. The system gets updated. 
+
+![](/images/add.png)
+
+![](/images/addcode.png)
+
+
+1. When the manager picks the **Add New Product**, he is prompted to enter all of the criterias via inquirer.
+
+![](/images/new1.png)
+
+![](/images/new2.png)
+
+![](/images/new3.png)
+
+![](/images/new4.png)
+
+1. The manager can also have an option to exit the app complitely as long as he prompts to **Exit the System**
+
+## The overall app flow:
+
+![](/images/challange2.gif)

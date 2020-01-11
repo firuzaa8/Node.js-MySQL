@@ -29,7 +29,7 @@ function readProducts() {
       console.log("=======================================================================");
     };
 
-    //connection.end();
+    
     purchase();
   });
   function purchase() {
@@ -98,10 +98,11 @@ function readProducts() {
             console.log("We have " + res[0].stock_quantity + " of " + res[0].product_name + " left in stock. Please modify your order.");
             purchase2(item_id);
           }
-
+      connection.end();
         });
 
       });
   }
 };
+
 
